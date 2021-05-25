@@ -39,7 +39,7 @@ export default class Lazy {
       parent,
       src,
       error: this.error,
-      loading: this.loading,
+      loading: binding.modifiers.noloading ? DEFAULT_URL : this.loading,
       cache: this.cache
     })
 
