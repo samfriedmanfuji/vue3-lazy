@@ -25,8 +25,7 @@
     "start": "rollup -c rollup.config.ts -w",
     "commit": "git-cz",
     "precommit": "lint-staged",
-    "pub": "sh release.sh",
-    "prepare": "npm run build"
+    "pub": "sh release.sh"
   },
   "lint-staged": {
     "{src,test}/**/*.ts": [
